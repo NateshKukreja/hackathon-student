@@ -8,9 +8,9 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Welcome, students!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h2>Welcome, students!</h2>
+    <p>Here, you will find your step by step tutorial for your hackathon project. Below, you'll notice the steps you'll need to follow, and above you'll notice the links to the milestones and add-ons page</p>
+    <p>Now let's go build something great.</p>
     <Footer />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>

@@ -1,9 +1,4 @@
-.site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
-  .site-content {
-    flex-grow: 1;
-  }
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
