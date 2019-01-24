@@ -12,6 +12,7 @@ const IndexPage = () => (
     <p>Here, you will find your step by step tutorial for your hackathon project. Below, you'll notice the steps you'll need to follow, and above you'll notice the links to the milestones and add-ons page</p>
     <p>Now let's go build something great.</p>
     <Footer />
+    <Link to="/page-2/">Go to page 2 </Link><br></br>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
